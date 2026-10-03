@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap");
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "./base.css" layer(base);
+@import "./App.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities);

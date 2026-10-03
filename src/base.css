@@ -1,0 +1,51 @@
+:root {
+  --bg: #f5f4ff;
+  --surface: #ffffff;
+  --ink: #1f1b3d;
+  --muted: #6f6b96;
+  --line: #e8e5fa;
+  --primary: #6246ea;
+  --primary-2: #8b5cf6;
+  --primary-soft: #efeaff;
+  --yellow: #ffc933;
+  --coral: #ff6b81;
+  --shadow: 0 12px 32px -16px rgba(72, 52, 180, 0.35);
+  --shadow-lg: 0 22px 48px -18px rgba(72, 52, 180, 0.45);
+  --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: "Fredoka", "Nunito", system-ui, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--ink);
+  font: 14.5px/1.5 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-head);
+  font-weight: 600;
+}
